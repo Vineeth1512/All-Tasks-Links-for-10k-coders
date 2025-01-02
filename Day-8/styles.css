@@ -1,0 +1,161 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+   
+
+}
+nav a{
+    margin: 10px 40px;
+    padding:  3px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    
+    border-radius: 5px;
+}
+nav a:hover{
+    color: #ff8541;
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+main{
+    margin: 0 auto;
+    max-width: fit-content;
+}
+section{
+    scroll-margin-top: 100px;
+}
+
+.home-wrapper{
+    display: flex;
+   
+    
+}
+.home-left{
+    width: 50%;
+   
+    margin-left:20px;
+}
+h1{
+    font-size: 40px; 
+}
+
+.full-stack{
+    color:  #ff8541;
+    /* #e84975 */
+}
+.home-left div{
+    margin: 20px;
+}
+.home-left button{
+    background: linear-gradient(90deg ,#e84975 ,#ff8541);
+    border: none;
+    margin: 10px 20px;
+    padding: 15px 40px;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0.5;
+    border-radius: 10px;
+    
+}
+.home-right{
+    width: 50%;
+ 
+}
+.home-right-image{
+    width: 500px;
+    height: 500px;
+   margin-left: 100px;
+   margin-right: 100px  ;
+}
+span{
+    color: #ff8541;
+}
+.home-bottom-wrap{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-ash{
+    color: #afabab6f;
+}
+.home-h2-h3{
+    font-size: 25px;
+}
+.startup{
+    font-size: 50px;
+}
+
+/* 
+partners sections */
+#partners{
+    margin-top: 250px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 25%;
+    padding: 5px;
+}
+
+/* 
+projects */
+
+.wrapper{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.wrapper div {
+    box-sizing: border-box;
+    background-color: aliceblue;
+    padding: 10px;
+    box-shadow: 0px 4px 8px #c7c2c1;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(90deg ,#e84975, #ff8541);
+    color: #fff;
+  }
+  .btn{
+    border: none;
+    background-color: rgb(55, 55, 195);
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  button a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+  }
+/* 
+  footer */
+footer{
+    background-color: rgb(7 19 38);
+    padding: 10px;
+    margin: 10px 0;
+    color: #fff;
+}
+  .contact-footer{
+    display: flex;
+    justify-content: space-between;
+  }
