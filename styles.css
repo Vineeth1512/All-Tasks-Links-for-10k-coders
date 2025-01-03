@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(135deg, #FF7E5F, #FEB47B)
+    background: linear-gradient(135deg,
+     #FF7E5F, #FEB47B)
 }
 h1{
     text-align: center;
