@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-10</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Day-10 Task</h1>
+    </header>
+
+    <main>
+
+        <form action="https://formsubmit.co/gumma272@gmail.com" method="post">
+
+            <h2 style="text-align: center;">Registration Form:</h2>
+            <label for="company">Company Name:
+                <input type="text" id="company" name="companyName" readonly value="VK-Solutions">
+            </label><br>
+            <label for="name">User Name:
+                <input type="text" id="name" name="username" minlength="4" required placeholder="Enter Name">
+            </label>
+            <br>
+            <label for="email">Email:
+                <input type="email" id="email" name="useremail" required placeholder="Enter Email">
+            </label>
+            <br>
+            <label for="mobile">Phone :
+                <input type="number" id="mobile" minlength="10" name="mobile" placeholder="Enter Mobile Number">
+            </label>
+            <br>
+            <label for="password">Password:
+                <input type="password" name="password" id="password" placeholder="Enter Password" required>
+            </label>
+            <br>
+            <label for="skills">
+                Choose Skills:
+
+                <select name="skills" id="skills">
+                    <optgroup label="Front-End">
+                        <option value>Select your Skills</option>
+                        <option value="html">Html</option>
+                        <option value="css">Css</option>
+                        <option value="Js">Js</option>
+                    </optgroup>
+                </select>
+            </label>
+
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+
+        </form>
+    </main>
+</body>
+
+</html>
