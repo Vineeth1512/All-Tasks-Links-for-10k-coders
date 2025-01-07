@@ -6,24 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day-11-SignIn</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/734753e47b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <form action="home.html" class="form-wrapper">
-        <fieldset>
-            <legend><b>Login</b></legend>
-            <input class="input-field" type="email" id="username" name="name" placeholder="Enter your Mail" required>
-            <input class="input-field" type="password" id="username" name="name" placeholder="Enter Password"
-                pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8,}"
-                title="password should be atleast One Uppercase and one special characters and length more than 8"
-                required>
-            <h3><a href="forget.html">Forget Password?</a></h3>
-            <button type="submit">Sign In</button>
-            <div>
-                <h3 class="forget">Don't have an account? <a href="index.html">Sign Up</a></h3>
-            </div>
-        </fieldset>
-    </form>
+
+    <header>
+        <h1>Registration Form</h1>
+    </header>
+    <main>
+        <form action="home.html" class="form-wrapper">
+            <fieldset>
+                <legend><b>Login</b></legend>
+                <input class="input-field" type="email" id="username" name="name" placeholder="Enter your Mail"
+                    required>
+                <input class="input-field" type="password" id="username" name="name" placeholder="Enter Password"
+                    pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8,}"
+                    title="password should be atleast One Uppercase and one special characters and length more than 8"
+                    required>
+                <h3><a href="forget.html">Forget Password?</a></h3>
+                <button type="submit">Sign In</button>
+                <div>
+                    <h3 class="forget">Don't have an account? <a href="index.html">Sign Up</a></h3>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p style="text-align: center;">Copyright &copy;2025;Designed by Vineeth</p>
+        <a href="tel:+9956785645"><i class="fa-solid fa-phone"></i></a>
+        <a href="mailto:vineeth@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://wa.me/9989582989"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/vineeth-kumar-mudham-9b4260196/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/Vineeth1512"><i class="fa-brands fa-github"></i></a>
+    </footer>
 </body>
 
 </html>
