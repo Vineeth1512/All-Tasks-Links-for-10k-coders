@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-11-SignIn</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <form action="home.html" class="form-wrapper">
+        <fieldset>
+            <legend><b>Login</b></legend>
+            <input class="input-field" type="email" id="username" name="name" placeholder="Enter your Mail" required>
+            <input class="input-field" type="password" id="username" name="name" placeholder="Enter Password"
+                pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8,}"
+                title="password should be atleast One Uppercase and one special characters and length more than 8"
+                required>
+            <h3><a href="forget.html">Forget Password?</a></h3>
+            <button type="submit">Sign In</button>
+            <div>
+                <h3 class="forget">Don't have an account? <a href="index.html">Sign Up</a></h3>
+            </div>
+        </fieldset>
+
+
+
+    </form>
+</body>
+
+</html>
